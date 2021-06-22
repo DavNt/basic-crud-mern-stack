@@ -1,6 +1,6 @@
-# MERN Stack CRUD App
+# MERN Stack Basic App
 
-App created as a guide for Create, Read, Update, Delete functionalities using MongoDB, Express, Reactjs, Nodejs.
+App created as a guide for Create, Read, Update, Delete, and handling role based user sign in/up with implementation of JWT token functionalities using MongoDB, Express, Reactjs, Nodejs.
 
 ## Backend 
 
@@ -12,4 +12,4 @@ express, nodejs, mongodb
 
 In the project directory /frontend
 
-reactjs components, axios
+reactjs components, axios, bootstrap

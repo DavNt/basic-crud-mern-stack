@@ -52,7 +52,7 @@ class App extends Component {
       <div>
         <nav className="navbar navbar-expand navbar-dark bg-dark">
           <Link to={"/"} className="navbar-brand">
-            Basic CRUD
+            DNT app
           </Link>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">
@@ -60,23 +60,22 @@ class App extends Component {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to={"/tutorials"} className="nav-link">
-                Tutorials
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to={"/add"} className="nav-link">
-                Add
-              </Link>
-            </li>
+            
+            
 
             {showModeratorBoard && (
+              <>
               <li className="nav-item">
                 <Link to={"/mod"} className="nav-link">
                   Moderator Board
                 </Link>
               </li>
+              <li className="nav-item">
+              <Link to={"/add"} className="nav-link">
+                Add
+              </Link>
+              </li>
+              </>
             )}
 
             {showAdminBoard && (
@@ -88,11 +87,18 @@ class App extends Component {
             )}
 
             {currentUser && (
+              <>
+              <li className="nav-item">
+              <Link to={"/tutorials"} className="nav-link">
+                Tutorials
+              </Link>
+              </li>
               <li className="nav-item">
                 <Link to={"/user"} className="nav-link">
                   User
                 </Link>
               </li>
+              </>
             )}
           </div>
 
