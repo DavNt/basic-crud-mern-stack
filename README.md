@@ -5,9 +5,11 @@ App created as a guide for Create, Read, Update, Delete functionalities using Mo
 ## Backend 
 
 In the project directory /backend
+
 express, nodejs, mongodb
 
 ## Frontend 
 
 In the project directory /frontend
+
 reactjs components, axios
